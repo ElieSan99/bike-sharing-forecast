@@ -10,6 +10,9 @@ bike-sharing-forecast/
 ├── NOTE_METHODE.md              # Note méthodologique (POV)
 ├── requirements.txt             # Dépendances Python
 │
+├── notebooks/                   # Analyse exploratoire
+│   └── exploration.ipynb        # Visualisation et feature discovery
+│
 ├── data/                        # Données (non versionné)
 │   ├── raw/                     # Téléchargements des données brutes
 │   │   ├── zips/                # Données Zip

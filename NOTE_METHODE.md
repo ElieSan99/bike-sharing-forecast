@@ -25,6 +25,7 @@ L'évaluation est multidimensionnelle pour refléter les enjeux métier :
 ## 4. Comparaison Baseline vs Amélioration
 - **Baseline (Seasonal Naive)** : Modèle de référence simple qui prédit la demande à l'instant T comme étant égale à la demande à T-168h (même heure, même jour de la semaine précédente). Cela capture l'essentiel de la saisonnalité hebdomadaire.
 - **Amélioration (LightGBM)** : L'utilisation de features multi-temporelles et de plusieurs lags permet de capturer non seulement la saisonnalité mais aussi les tendances récentes et les interactions complexes entre variables.
+- **Exploration** : Une phase d'analyse exploratoire rapide (voir `notebooks/exploration.ipynb`) a permis de valider un lien entre les pics de demande et les variables temporelles (heure, jour de la semaine).
 
 
 ## 5. Limites et Robustesse
