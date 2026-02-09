@@ -2,7 +2,9 @@
 
 ## 1. Définition du Cas d'Usage
 **Problématique** : Prédire la demande horaire de vélos sur un horizon de **48 heures (J+2)**.
+
 **Données** : Les données brutes de trajets individuels (Capital Bikeshare 2024-2025) ont été **agrégées par pas de temps horaire** pour constituer une série temporelle de demande globale.
+
 **Justification** : Un horizon de 48h permet à l'opérateur de planifier la logistique de rééquilibrage des stations et la maintenance préventive avant les pics de demande prévisibles (ex: rush hours en semaine).
 
 
