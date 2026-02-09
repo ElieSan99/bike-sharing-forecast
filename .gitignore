@@ -1,0 +1,22 @@
+# System
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# Données brutes et traitées
+data/raw/*
+data/processed/*
+
+# On garde les dossiers via .gitkeep
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Résultats (on garde le dossier, pas le contenu)
+results/*
+!results/.gitkeep
+
+
+# Notebooks
+.ipynb_checkpoints
