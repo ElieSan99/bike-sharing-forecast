@@ -36,6 +36,18 @@ bike-sharing-forecast/
 
 ## Installation
 
+### 1. Création de l'environnement virtuel
+```bash
+# Windows
+python -m venv venv
+.\venv\Scripts\activate
+
+# Linux/macOS
+python3 -m venv venv
+source venv/bin/activate
+```
+
+### 2. Installations des dépendances
 ```bash
 pip install -r requirements.txt
 ```
