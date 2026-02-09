@@ -59,7 +59,8 @@ pip install -r requirements.txt
 ## Pipeline de Reproduction
 
 ### 1. Préparation des données
-Télécharge et agrège les données 2024-2025.
+Télécharge et agrège les données 2024-2025. 
+*Note : Cette étape est indispensable avant de lancer le modèle **ou le notebook d'exploration**.*
 ```bash
 python src/data_loader.py
 ```
