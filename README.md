@@ -55,6 +55,10 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
+> [!TIP]
+> **Sur Linux (Ubuntu/Debian)** : Si vous rencontrez l'erreur `libgomp.so.1`, installez la dépendance système avec :  
+> `sudo apt-get update && sudo apt-get install -y libgomp1`
+
 ## Pipeline de Reproduction
 
 ### 1. Préparation des données
